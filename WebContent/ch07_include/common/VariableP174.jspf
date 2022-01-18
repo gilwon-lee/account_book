@@ -1,0 +1,9 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%--java.util.Date 클래스의 객체를 생성해서
+현재 서버상의 시간을 CURRENT_TIME변수에 저장한다.--%>
+
+<% java.util.Date CURRENT_TIME = new java.util.Date();
+%>
+
+

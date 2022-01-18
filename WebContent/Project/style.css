@@ -1,0 +1,108 @@
+*{
+	font-family: 'Do Hyeon', sans-serif;
+	list-style:none;
+	text-decoration:none;
+	border-collapse:collapse;
+	margin:0px;
+	padding:0px;
+	color:black;
+}
+h1{
+	font-size:48px;
+}
+h2{
+	text-align: center;
+}
+
+.intro_bg{
+	background:yellow;
+	/* background-image:url("image/iu.jpg"); */
+	width:100%;
+	height:700px;
+}
+
+.header{
+	display:flex;
+	width:1280px;
+	margin:auto;
+	background:red;
+	height:86px;
+}
+
+.searchArea{
+	width:500px;
+	height:60px;
+	background: green;
+	margin-top:5px;
+}
+.nav{
+	display:flex;
+ 	justify-content:flex-start;
+ 	line-height:86px;
+	width:calc(1280px - 500px);
+	background:blue;
+}
+.nav > li{
+ 	margin-left:50px;
+	/*header-seracharea  */
+}
+.searchArea > a{
+	float:right;
+	margin-left:10px;
+}
+.menu{
+	display:flex;
+	width:1280px;
+	margin:auto;
+	background:white;
+	height:40px;
+}
+.RightMenu{
+	display:flex;
+ 	justify-content:flex-start;
+ 	line-height:40px;
+	width:calc(1280px - 500px);
+	background:yellow;
+}
+.RightMenu > li{
+	margin-left:10px;
+}
+
+.LeftMenu{
+	display:flex;
+ 	justify-content:flex-end;
+ 	line-height:40px;
+	width:1280px;
+	background:purple;
+}
+.LeftMenu > li{
+	margin-left:5px;
+}
+
+.intro_text{ 
+	width:100%;
+	margin:100px auto 231px auto;
+	text-align:center;
+	background:orange;
+	color:blue;
+}
+
+.main_money{
+	display:flex;
+	width:800px;
+	height:100px;
+	background:gray;
+	margin:auto;
+	
+}
+.main_money > li{
+	flex:1;
+	background:skyblue;
+}
+.main_money > li > div{
+	margin-top:20px;
+	height:60px;
+	text-align:center;
+	background:#FF4500;
+}
+
