@@ -9,10 +9,14 @@
 <body>
  <h2>session P236</h2>
  <% //p236
+  //원래 로그인처리가 성공되면 DB에서 가져온 데이터를 session에 설정해야한다.
   //session.setAttribute(String name,Object value):세션에 특정 정보를 저장.설정
   //session.setAttribute(속성명,속성값)
   session.setAttribute("MID", "hid"); //회원id hid
   session.setAttribute("MNICK", "의적홍길동");//회원별명 "의적홍길동"
+  session.setAttribute("MGRAGE", 1);
+  //int타입 1은 session에 저장되면서 Object(클래스화 된다.)
+  //int 기본타입의 래퍼클래스인 Intger로 저장된다.
  %>
  세션에 정보를 저장완료.
  <a href="sessionP236-2.jsp">다른페이지로 이동</a>

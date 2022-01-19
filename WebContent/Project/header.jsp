@@ -1,3 +1,5 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="ko">
 <head>
@@ -22,11 +24,6 @@
 					<li><a href="#">마이페이지</a></li>
 				</ul>
 			</div>
-			<ul class="main_money">
-				<li><div>수입 금액</div></li>
-				<li><div>지출 금액</div></li>
-				<li><div>이번달 목표</div></li>
-			</ul>
 		</div>
 	</div>
 </body>
